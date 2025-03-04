@@ -193,7 +193,7 @@ def load_tokens(file_path):
         return []
 
 # Use the function to load tokens
-my_cookes = load_tokens('input_file.txt')
+my_cookes = load_tokens('/sdcard/boostphere/RPWPAGES.txt')
 if my_cookes:
     print(f"Total Ids: {len(my_cookes)}")
 else:
